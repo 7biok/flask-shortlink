@@ -16,7 +16,7 @@ URL_SHELVE_PATH = 'urls.shelve'
 ANALYTICS_SHELVE_PATH = 'analytics.shelve'
 DEBUG = True
 app.config['SECRET_KEY'] = urandom(32)
-BASE_URL = "https://sl.s2s-bonn.de"
+BASE_URL = "https://7biok.online"
 
 
 class ShortlinkForm(FlaskForm):
